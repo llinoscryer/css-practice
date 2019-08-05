@@ -8,14 +8,41 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="header">
         <header>
                 <h1>CSS Practice</h1>
                 <ul>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="social.html">Social</a></li>
                     <li><a href="feedback.html">Feedback</a></li>
                 </ul>
         </header>
+    </div>
+            <form class="feedbackForm"> 
+                <div class="formEntry">
+                    <label for="firstname">First name:</label><br>
+                    <input type="text" id="firstName" name="firstName"><br>
+                </div>
+                <div class="formEntry"> 
+                    <label for="lastname">Last name:</label><br>
+                    <input type="text" id="lastName" name="lastName"><br>
+                </div>    
+                <div class="formEntry">  
+                    <label for="mail">Email address:</label><br>
+                    <input type="text" id="email" name="emailAddress"><br>
+                </div>
+                <div class="formEntry">  
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        <div class="footer">
+                Llinos Cryer - 2019 - Code Nation - Apprentice Junior Developer
+        </div>
 </body>
 </html>
